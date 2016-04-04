@@ -1,5 +1,6 @@
 {
   "private": {
+    "appName": "Doh Error Logger",
     "doh": "44fe0b18-05c2-47d0-9353-1146b218ff36"
   }
 }
