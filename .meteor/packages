@@ -25,3 +25,4 @@ aldeed:simple-schema
 aldeed:collection2
 check
 twbs:bootstrap
+sunstory:meteor-template-helpers
