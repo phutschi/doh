@@ -7,7 +7,7 @@ class DohAPI {
 
   request(options) {
     let handleRequest = new Future(),
-        url = 'http://localhost:3000/api/v1/logs/ingest';
+        url = 'http://doh.quiez.io/api/v1/logs/ingest';
 
     HTTP.call('POST', url, {
       headers: {'x-application-id': this.appId},
