@@ -1,3 +1,5 @@
+import {faSpin} from '../../../helpers/functions'
+
 Template.adminApps.onCreated(() => {
   let self = Template.instance();
 
@@ -34,16 +36,24 @@ Template.adminApps.helpers({
 
 Template.adminApps.events({
   'click #contactApp': (e) => {
-    let app = e.currentTarget.dataset.app;
+    let spinner = e.currentTarget.firstChild,
+        app = e.currentTarget.dataset.app;
+
+    // spinner.className += ' fa-spin'
+
+    faSpin(spinner, true)
 
     if (app) {
       Meteor.call('contactApp', app, (e, r) => {
         if (e) {
           alertify.notify(e, 'warning')
+          faSpin(spinner, false)
         } else if (r.code != 200) {
           alertify.notify(r.message, 'danger')
+          faSpin(spinner, false)
         } else {
           alertify.notify('Refreshed the App [200 - OK!]', 'success')
+          faSpin(spinner, false)
         }
       })
     }
