@@ -26,3 +26,11 @@ Picker.route('/api/v1/logs/ingest', function(params, request, response) {
     }
   }
 })
+
+Picker.route('/api/v1/contact', function(params, request, response) {
+  if (request.method != 'GET') {
+    respond(response, 403, '[403] Method not Supported')
+  } else {
+    respond(response, 200, Meteor.settings.private.applicationId);
+  }
+})

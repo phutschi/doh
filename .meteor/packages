@@ -26,3 +26,14 @@ aldeed:collection2
 check
 twbs:bootstrap
 sunstory:meteor-template-helpers
+kadira:flow-router
+alanning:roles
+accounts-base
+accounts-password
+ovcharik:alertifyjs
+kadira:blaze-layout
+reactive-dict
+arillo:flow-router-helpers
+fortawesome:fontawesome
+msavin:mongol
+random

@@ -1,0 +1,13 @@
+<head>
+  <title>Doh!</title>
+</head>
+
+<body>
+  {{> applicationLayout}}
+</body>
+
+<template name="applicationLayout">
+  {{> Template.dynamic template=header}}
+  {{> Template.dynamic template=main}}
+  {{> Template.dynamic template=footer}}
+</template>
