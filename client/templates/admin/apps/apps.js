@@ -1,4 +1,4 @@
-import {faSpin} from '../../../helpers/functions'
+import {faSpin} from '../../../helpers/clientFunctions'
 
 Template.adminApps.onCreated(() => {
   let self = Template.instance();
