@@ -1,0 +1,16 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://doh_user:Apa!RiskAbid10247@lamppost.7.mongolayer.com:10393,lamppost.6.mongolayer.com:10392/doh?replicaSet=set-546a2280b34b40491d007b5e",
+      "MONGO_OPLOG_URL": "mongodb://doh_oplog:Apa!RiskAbid10247@lamppost.7.mongolayer.com:10393,lamppost.6.mongolayer.com:10392/local?authSource=doh"
+    }
+  },
+  "public": {
+    "appName": "Doh Error Logger"
+  },
+  "private": {
+    "applicationId": "es.brillen.cc",
+    "doh": "44fe0b18-05c2-47d0-9353-1146b218ff36",
+    "securePasswordLength": 10
+  }
+}
