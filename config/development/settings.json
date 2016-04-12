@@ -3,6 +3,8 @@
     "appName": "Doh Error Logger"
   },
   "private": {
-    "doh": "44fe0b18-05c2-47d0-9353-1146b218ff36"
+    "applicationId": "es.brillen.cc",
+    "doh": "44fe0b18-05c2-47d0-9353-1146b218ff36",
+    "securePasswordLength": 10
   }
 }

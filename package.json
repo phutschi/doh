@@ -2,11 +2,15 @@
   "name": "doh",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "build": "meteor build"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
     "fibers": "^1.0.10",
-    "meteor-node-stubs": "~0.2.0"
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^0.14.8",
+    "react-addons-transition-group": "^0.14.8",
+    "react-dom": "^0.14.8"
   }
 }
