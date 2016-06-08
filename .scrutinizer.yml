@@ -1,6 +1,6 @@
 filter:
     paths:
         - client/*
-	- server/*
+        - server/*
         - lib/*
-	- collections/*
+        - collections/*
